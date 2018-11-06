@@ -1,0 +1,21 @@
+﻿
+
+.well {
+    width: 40%;
+    height: 100%;
+    margin-left:50%;
+    margin-top: 10%;
+    border-color:transparent;
+    /*border-top-color:transparent;*/
+    /*background-color:transparent;*/
+    font-size:3vh;
+}
+.form-control{
+    border-color:#f56565;
+    margin-top:10%;
+}
+.btn {
+    margin-top:15%;
+    margin-right: 76%;
+   border-color:#f56565;
+}

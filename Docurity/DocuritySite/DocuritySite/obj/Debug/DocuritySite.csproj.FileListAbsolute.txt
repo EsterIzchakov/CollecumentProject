@@ -1,0 +1,188 @@
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\project\DocuritySite\DocuritySite\bin\roslyn\csc.exe
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\project\DocuritySite\DocuritySite\bin\roslyn\csc.exe.config
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\project\DocuritySite\DocuritySite\bin\roslyn\csc.rsp
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\project\DocuritySite\DocuritySite\bin\roslyn\csi.exe
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\project\DocuritySite\DocuritySite\bin\roslyn\csi.rsp
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\project\DocuritySite\DocuritySite\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\project\DocuritySite\DocuritySite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\project\DocuritySite\DocuritySite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\project\DocuritySite\DocuritySite\bin\roslyn\Microsoft.CodeAnalysis.dll
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\project\DocuritySite\DocuritySite\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\project\DocuritySite\DocuritySite\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\project\DocuritySite\DocuritySite\bin\roslyn\Microsoft.CSharp.Core.targets
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\project\DocuritySite\DocuritySite\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\project\DocuritySite\DocuritySite\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\project\DocuritySite\DocuritySite\bin\roslyn\Microsoft.VisualBasic.Core.targets
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\project\DocuritySite\DocuritySite\bin\roslyn\System.AppContext.dll
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\project\DocuritySite\DocuritySite\bin\roslyn\System.Collections.Immutable.dll
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\project\DocuritySite\DocuritySite\bin\roslyn\System.Diagnostics.StackTrace.dll
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\project\DocuritySite\DocuritySite\bin\roslyn\System.IO.FileSystem.dll
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\project\DocuritySite\DocuritySite\bin\roslyn\System.IO.FileSystem.Primitives.dll
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\project\DocuritySite\DocuritySite\bin\roslyn\System.Reflection.Metadata.dll
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\project\DocuritySite\DocuritySite\bin\roslyn\vbc.exe
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\project\DocuritySite\DocuritySite\bin\roslyn\vbc.exe.config
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\project\DocuritySite\DocuritySite\bin\roslyn\vbc.rsp
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\project\DocuritySite\DocuritySite\bin\roslyn\VBCSCompiler.exe
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\project\DocuritySite\DocuritySite\bin\roslyn\VBCSCompiler.exe.config
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\project\DocuritySite\DocuritySite\bin\DocuritySite.dll.config
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\project\DocuritySite\DocuritySite\bin\DocuritySite.dll
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\project\DocuritySite\DocuritySite\bin\DocuritySite.pdb
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\project\DocuritySite\DocuritySite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\project\DocuritySite\DocuritySite\bin\Microsoft.Web.Infrastructure.dll
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\project\DocuritySite\DocuritySite\bin\System.Web.Helpers.dll
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\project\DocuritySite\DocuritySite\bin\System.Web.Mvc.dll
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\project\DocuritySite\DocuritySite\bin\System.Web.Razor.dll
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\project\DocuritySite\DocuritySite\bin\System.Web.Webpages.Deployment.dll
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\project\DocuritySite\DocuritySite\bin\System.Web.Webpages.dll
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\project\DocuritySite\DocuritySite\bin\System.Web.Webpages.Razor.dll
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\project\DocuritySite\DocuritySite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\project\DocuritySite\DocuritySite\bin\System.Web.Razor.xml
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\project\DocuritySite\DocuritySite\bin\System.Web.Webpages.xml
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\project\DocuritySite\DocuritySite\bin\System.Web.Webpages.Deployment.xml
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\project\DocuritySite\DocuritySite\bin\System.Web.Webpages.Razor.xml
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\project\DocuritySite\DocuritySite\bin\System.Web.Helpers.xml
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\project\DocuritySite\DocuritySite\bin\System.Web.Mvc.xml
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\project\DocuritySite\DocuritySite\obj\Debug\DocuritySite.csprojResolveAssemblyReference.cache
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\project\DocuritySite\DocuritySite\obj\Debug\DocuritySite.dll
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\project\DocuritySite\DocuritySite\obj\Debug\DocuritySite.pdb
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\Docurity\DocuritySite\DocuritySite\bin\roslyn\csc.exe
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\Docurity\DocuritySite\DocuritySite\bin\roslyn\csc.exe.config
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\Docurity\DocuritySite\DocuritySite\bin\roslyn\csc.rsp
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\Docurity\DocuritySite\DocuritySite\bin\roslyn\csi.exe
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\Docurity\DocuritySite\DocuritySite\bin\roslyn\csi.rsp
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\Docurity\DocuritySite\DocuritySite\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\Docurity\DocuritySite\DocuritySite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\Docurity\DocuritySite\DocuritySite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\Docurity\DocuritySite\DocuritySite\bin\roslyn\Microsoft.CodeAnalysis.dll
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\Docurity\DocuritySite\DocuritySite\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\Docurity\DocuritySite\DocuritySite\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\Docurity\DocuritySite\DocuritySite\bin\roslyn\Microsoft.CSharp.Core.targets
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\Docurity\DocuritySite\DocuritySite\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\Docurity\DocuritySite\DocuritySite\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\Docurity\DocuritySite\DocuritySite\bin\roslyn\Microsoft.VisualBasic.Core.targets
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\Docurity\DocuritySite\DocuritySite\bin\roslyn\System.AppContext.dll
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\Docurity\DocuritySite\DocuritySite\bin\roslyn\System.Collections.Immutable.dll
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\Docurity\DocuritySite\DocuritySite\bin\roslyn\System.Diagnostics.StackTrace.dll
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\Docurity\DocuritySite\DocuritySite\bin\roslyn\System.IO.FileSystem.dll
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\Docurity\DocuritySite\DocuritySite\bin\roslyn\System.IO.FileSystem.Primitives.dll
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\Docurity\DocuritySite\DocuritySite\bin\roslyn\System.Reflection.Metadata.dll
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\Docurity\DocuritySite\DocuritySite\bin\roslyn\vbc.exe
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\Docurity\DocuritySite\DocuritySite\bin\roslyn\vbc.exe.config
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\Docurity\DocuritySite\DocuritySite\bin\roslyn\vbc.rsp
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\Docurity\DocuritySite\DocuritySite\bin\roslyn\VBCSCompiler.exe
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\Docurity\DocuritySite\DocuritySite\bin\roslyn\VBCSCompiler.exe.config
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\Docurity\DocuritySite\DocuritySite\bin\DocuritySite.dll.config
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\Docurity\DocuritySite\DocuritySite\bin\DocuritySite.dll
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\Docurity\DocuritySite\DocuritySite\bin\DocuritySite.pdb
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\Docurity\DocuritySite\DocuritySite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\Docurity\DocuritySite\DocuritySite\bin\Microsoft.Web.Infrastructure.dll
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\Docurity\DocuritySite\DocuritySite\bin\System.Web.Helpers.dll
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\Docurity\DocuritySite\DocuritySite\bin\System.Web.Mvc.dll
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\Docurity\DocuritySite\DocuritySite\bin\System.Web.Razor.dll
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\Docurity\DocuritySite\DocuritySite\bin\System.Web.Webpages.Deployment.dll
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\Docurity\DocuritySite\DocuritySite\bin\System.Web.Webpages.dll
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\Docurity\DocuritySite\DocuritySite\bin\System.Web.Webpages.Razor.dll
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\Docurity\DocuritySite\DocuritySite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\Docurity\DocuritySite\DocuritySite\bin\System.Web.Razor.xml
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\Docurity\DocuritySite\DocuritySite\bin\System.Web.Webpages.xml
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\Docurity\DocuritySite\DocuritySite\bin\System.Web.Webpages.Deployment.xml
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\Docurity\DocuritySite\DocuritySite\bin\System.Web.Webpages.Razor.xml
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\Docurity\DocuritySite\DocuritySite\bin\System.Web.Helpers.xml
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\Docurity\DocuritySite\DocuritySite\bin\System.Web.Mvc.xml
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\Docurity\DocuritySite\DocuritySite\obj\Debug\DocuritySite.csprojResolveAssemblyReference.cache
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\Docurity\DocuritySite\DocuritySite\obj\Debug\DocuritySite.dll
+T:\גרפיקה\.פרויקט סיום\יעל בשארי ואסתי יצחקוב\Docurity\DocuritySite\DocuritySite\obj\Debug\DocuritySite.pdb
+G:\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\csc.exe
+G:\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\csc.exe.config
+G:\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\csc.rsp
+G:\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\csi.exe
+G:\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\csi.rsp
+G:\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+G:\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+G:\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+G:\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\System.AppContext.dll
+G:\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\System.Collections.Immutable.dll
+G:\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\System.Diagnostics.StackTrace.dll
+G:\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\System.IO.FileSystem.dll
+G:\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\System.IO.FileSystem.Primitives.dll
+G:\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\System.Reflection.Metadata.dll
+G:\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\vbc.exe
+G:\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\vbc.exe.config
+G:\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\vbc.rsp
+G:\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\VBCSCompiler.exe
+G:\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\VBCSCompiler.exe.config
+G:\EndProject\Docurity\DocuritySite\DocuritySite\bin\DocuritySite.dll.config
+G:\EndProject\Docurity\DocuritySite\DocuritySite\bin\DocuritySite.dll
+G:\EndProject\Docurity\DocuritySite\DocuritySite\bin\DocuritySite.pdb
+G:\EndProject\Docurity\DocuritySite\DocuritySite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\EndProject\Docurity\DocuritySite\DocuritySite\bin\Microsoft.Web.Infrastructure.dll
+G:\EndProject\Docurity\DocuritySite\DocuritySite\bin\System.Web.Helpers.dll
+G:\EndProject\Docurity\DocuritySite\DocuritySite\bin\System.Web.Mvc.dll
+G:\EndProject\Docurity\DocuritySite\DocuritySite\bin\System.Web.Razor.dll
+G:\EndProject\Docurity\DocuritySite\DocuritySite\bin\System.Web.Webpages.Deployment.dll
+G:\EndProject\Docurity\DocuritySite\DocuritySite\bin\System.Web.Webpages.dll
+G:\EndProject\Docurity\DocuritySite\DocuritySite\bin\System.Web.Webpages.Razor.dll
+G:\EndProject\Docurity\DocuritySite\DocuritySite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\EndProject\Docurity\DocuritySite\DocuritySite\bin\System.Web.Razor.xml
+G:\EndProject\Docurity\DocuritySite\DocuritySite\bin\System.Web.Webpages.xml
+G:\EndProject\Docurity\DocuritySite\DocuritySite\bin\System.Web.Webpages.Deployment.xml
+G:\EndProject\Docurity\DocuritySite\DocuritySite\bin\System.Web.Webpages.Razor.xml
+G:\EndProject\Docurity\DocuritySite\DocuritySite\bin\System.Web.Helpers.xml
+G:\EndProject\Docurity\DocuritySite\DocuritySite\bin\System.Web.Mvc.xml
+G:\EndProject\Docurity\DocuritySite\DocuritySite\obj\Debug\DocuritySite.csprojResolveAssemblyReference.cache
+G:\EndProject\Docurity\DocuritySite\DocuritySite\obj\Debug\DocuritySite.dll
+G:\EndProject\Docurity\DocuritySite\DocuritySite\obj\Debug\DocuritySite.pdb
+H:\תכנות\שנה ב\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\csc.exe
+H:\תכנות\שנה ב\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\csc.exe.config
+H:\תכנות\שנה ב\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\csc.rsp
+H:\תכנות\שנה ב\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\csi.exe
+H:\תכנות\שנה ב\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\csi.rsp
+H:\תכנות\שנה ב\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+H:\תכנות\שנה ב\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+H:\תכנות\שנה ב\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+H:\תכנות\שנה ב\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\Microsoft.CodeAnalysis.dll
+H:\תכנות\שנה ב\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+H:\תכנות\שנה ב\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+H:\תכנות\שנה ב\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\Microsoft.CSharp.Core.targets
+H:\תכנות\שנה ב\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+H:\תכנות\שנה ב\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+H:\תכנות\שנה ב\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\Microsoft.VisualBasic.Core.targets
+H:\תכנות\שנה ב\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\System.AppContext.dll
+H:\תכנות\שנה ב\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\System.Collections.Immutable.dll
+H:\תכנות\שנה ב\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\System.Diagnostics.StackTrace.dll
+H:\תכנות\שנה ב\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\System.IO.FileSystem.dll
+H:\תכנות\שנה ב\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\System.IO.FileSystem.Primitives.dll
+H:\תכנות\שנה ב\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\System.Reflection.Metadata.dll
+H:\תכנות\שנה ב\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\vbc.exe
+H:\תכנות\שנה ב\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\vbc.exe.config
+H:\תכנות\שנה ב\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\vbc.rsp
+H:\תכנות\שנה ב\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\VBCSCompiler.exe
+H:\תכנות\שנה ב\EndProject\Docurity\DocuritySite\DocuritySite\bin\roslyn\VBCSCompiler.exe.config
+H:\תכנות\שנה ב\EndProject\Docurity\DocuritySite\DocuritySite\bin\DocuritySite.dll.config
+H:\תכנות\שנה ב\EndProject\Docurity\DocuritySite\DocuritySite\bin\DocuritySite.dll
+H:\תכנות\שנה ב\EndProject\Docurity\DocuritySite\DocuritySite\bin\DocuritySite.pdb
+H:\תכנות\שנה ב\EndProject\Docurity\DocuritySite\DocuritySite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+H:\תכנות\שנה ב\EndProject\Docurity\DocuritySite\DocuritySite\bin\Microsoft.Web.Infrastructure.dll
+H:\תכנות\שנה ב\EndProject\Docurity\DocuritySite\DocuritySite\bin\System.Web.Helpers.dll
+H:\תכנות\שנה ב\EndProject\Docurity\DocuritySite\DocuritySite\bin\System.Web.Mvc.dll
+H:\תכנות\שנה ב\EndProject\Docurity\DocuritySite\DocuritySite\bin\System.Web.Razor.dll
+H:\תכנות\שנה ב\EndProject\Docurity\DocuritySite\DocuritySite\bin\System.Web.Webpages.Deployment.dll
+H:\תכנות\שנה ב\EndProject\Docurity\DocuritySite\DocuritySite\bin\System.Web.Webpages.dll
+H:\תכנות\שנה ב\EndProject\Docurity\DocuritySite\DocuritySite\bin\System.Web.Webpages.Razor.dll
+H:\תכנות\שנה ב\EndProject\Docurity\DocuritySite\DocuritySite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+H:\תכנות\שנה ב\EndProject\Docurity\DocuritySite\DocuritySite\bin\System.Web.Razor.xml
+H:\תכנות\שנה ב\EndProject\Docurity\DocuritySite\DocuritySite\bin\System.Web.Webpages.xml
+H:\תכנות\שנה ב\EndProject\Docurity\DocuritySite\DocuritySite\bin\System.Web.Webpages.Deployment.xml
+H:\תכנות\שנה ב\EndProject\Docurity\DocuritySite\DocuritySite\bin\System.Web.Webpages.Razor.xml
+H:\תכנות\שנה ב\EndProject\Docurity\DocuritySite\DocuritySite\bin\System.Web.Helpers.xml
+H:\תכנות\שנה ב\EndProject\Docurity\DocuritySite\DocuritySite\bin\System.Web.Mvc.xml
+H:\תכנות\שנה ב\EndProject\Docurity\DocuritySite\DocuritySite\obj\Debug\DocuritySite.csprojResolveAssemblyReference.cache
+H:\תכנות\שנה ב\EndProject\Docurity\DocuritySite\DocuritySite\obj\Debug\DocuritySite.dll
+H:\תכנות\שנה ב\EndProject\Docurity\DocuritySite\DocuritySite\obj\Debug\DocuritySite.pdb

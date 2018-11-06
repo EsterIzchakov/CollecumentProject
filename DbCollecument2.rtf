@@ -1,0 +1,222 @@
+{\rtf1\fbidis\ansi\ansicpg1255\deff0\nouicompat\deflang1037{\fonttbl{\f0\fnil\fcharset0 Consolas;}{\f1\fnil\fcharset0 Arial;}}
+{\colortbl ;\red0\green0\blue255;\red0\green0\blue0;\red0\green128\blue0;\red128\green128\blue128;}
+{\*\generator Riched20 10.0.17134}\viewkind4\uc1 
+\pard\rtlpar\sa200\sl276\slmult1\qr\cf1\f0\fs19\lang1033 USE\cf2  [DBCollecument]\par
+\cf1 GO\cf2\par
+\cf3 /****** Object:  Table [dbo].[Categories]    Script Date: 08/10/2018 13:55:30 ******/\cf2\par
+\cf1 SET\cf2  \cf1 ANSI_NULLS\cf2  \cf1 ON\cf2\par
+\cf1 GO\cf2\par
+\cf1 SET\cf2  \cf1 QUOTED_IDENTIFIER\cf2  \cf1 ON\cf2\par
+\cf1 GO\cf2\par
+\cf1 CREATE\cf2  \cf1 TABLE\cf2  [dbo]\cf4 .\cf2 [Categories]\cf4 (\cf2\par
+\tab [ID] [int] \cf4 NOT\cf2  \cf4 NULL,\cf2\par
+\tab [Description] [nvarchar]\cf4 (\cf2 70\cf4 )\cf2  \cf4 NOT\cf2  \cf4 NULL,\cf2\par
+ \cf1 CONSTRAINT\cf2  [PK_CATEGORIES] \cf1 PRIMARY\cf2  \cf1 KEY\cf2  \cf1 CLUSTERED\cf2  \par
+\cf4 (\cf2\par
+\tab [ID] \cf1 ASC\cf2\par
+\cf4 )\cf1 WITH \cf4 (\cf1 PAD_INDEX\cf2  \cf4 =\cf2  \cf1 OFF\cf4 ,\cf2  \cf1 STATISTICS_NORECOMPUTE\cf2  \cf4 =\cf2  \cf1 OFF\cf4 ,\cf2  \cf1 IGNORE_DUP_KEY\cf2  \cf4 =\cf2  \cf1 OFF\cf4 ,\cf2  \cf1 ALLOW_ROW_LOCKS\cf2  \cf4 =\cf2  \cf1 ON\cf4 ,\cf2  \cf1 ALLOW_PAGE_LOCKS\cf2  \cf4 =\cf2  \cf1 ON\cf4 )\cf2  \cf1 ON\cf2  [PRIMARY]\par
+\cf4 )\cf2  \cf1 ON\cf2  [PRIMARY]\par
+\cf1 GO\cf2\par
+\cf3 /****** Object:  Table [dbo].[Claims]    Script Date: 08/10/2018 13:55:30 ******/\cf2\par
+\cf1 SET\cf2  \cf1 ANSI_NULLS\cf2  \cf1 ON\cf2\par
+\cf1 GO\cf2\par
+\cf1 SET\cf2  \cf1 QUOTED_IDENTIFIER\cf2  \cf1 ON\cf2\par
+\cf1 GO\cf2\par
+\cf1 CREATE\cf2  \cf1 TABLE\cf2  [dbo]\cf4 .\cf2 [Claims]\cf4 (\cf2\par
+\tab [Permission] [int] \cf4 NOT\cf2  \cf4 NULL,\cf2\par
+\tab [RoleID] [int] \cf4 NOT\cf2  \cf4 NULL,\cf2\par
+ \cf1 CONSTRAINT\cf2  [PK_CLAIMS] \cf1 PRIMARY\cf2  \cf1 KEY\cf2  \cf1 CLUSTERED\cf2  \par
+\cf4 (\cf2\par
+\tab [Permission] \cf1 ASC\cf4 ,\cf2\par
+\tab [RoleID] \cf1 ASC\cf2\par
+\cf4 )\cf1 WITH \cf4 (\cf1 PAD_INDEX\cf2  \cf4 =\cf2  \cf1 OFF\cf4 ,\cf2  \cf1 STATISTICS_NORECOMPUTE\cf2  \cf4 =\cf2  \cf1 OFF\cf4 ,\cf2  \cf1 IGNORE_DUP_KEY\cf2  \cf4 =\cf2  \cf1 OFF\cf4 ,\cf2  \cf1 ALLOW_ROW_LOCKS\cf2  \cf4 =\cf2  \cf1 ON\cf4 ,\cf2  \cf1 ALLOW_PAGE_LOCKS\cf2  \cf4 =\cf2  \cf1 ON\cf4 )\cf2  \cf1 ON\cf2  [PRIMARY]\par
+\cf4 )\cf2  \cf1 ON\cf2  [PRIMARY]\par
+\cf1 GO\cf2\par
+\cf3 /****** Object:  Table [dbo].[Extensions]    Script Date: 08/10/2018 13:55:30 ******/\cf2\par
+\cf1 SET\cf2  \cf1 ANSI_NULLS\cf2  \cf1 ON\cf2\par
+\cf1 GO\cf2\par
+\cf1 SET\cf2  \cf1 QUOTED_IDENTIFIER\cf2  \cf1 ON\cf2\par
+\cf1 GO\cf2\par
+\cf1 CREATE\cf2  \cf1 TABLE\cf2  [dbo]\cf4 .\cf2 [Extensions]\cf4 (\cf2\par
+\tab [ID] [int] \cf4 NOT\cf2  \cf4 NULL,\cf2\par
+\tab [Extension] [nchar]\cf4 (\cf2 4\cf4 )\cf2  \cf4 NOT\cf2  \cf4 NULL,\cf2\par
+ \cf1 CONSTRAINT\cf2  [PK_Extensions] \cf1 PRIMARY\cf2  \cf1 KEY\cf2  \cf1 CLUSTERED\cf2  \par
+\cf4 (\cf2\par
+\tab [ID] \cf1 ASC\cf2\par
+\cf4 )\cf1 WITH \cf4 (\cf1 PAD_INDEX\cf2  \cf4 =\cf2  \cf1 OFF\cf4 ,\cf2  \cf1 STATISTICS_NORECOMPUTE\cf2  \cf4 =\cf2  \cf1 OFF\cf4 ,\cf2  \cf1 IGNORE_DUP_KEY\cf2  \cf4 =\cf2  \cf1 OFF\cf4 ,\cf2  \cf1 ALLOW_ROW_LOCKS\cf2  \cf4 =\cf2  \cf1 ON\cf4 ,\cf2  \cf1 ALLOW_PAGE_LOCKS\cf2  \cf4 =\cf2  \cf1 ON\cf4 )\cf2  \cf1 ON\cf2  [PRIMARY]\par
+\cf4 )\cf2  \cf1 ON\cf2  [PRIMARY]\par
+\cf1 GO\cf2\par
+\cf3 /****** Object:  Table [dbo].[Files]    Script Date: 08/10/2018 13:55:30 ******/\cf2\par
+\cf1 SET\cf2  \cf1 ANSI_NULLS\cf2  \cf1 ON\cf2\par
+\cf1 GO\cf2\par
+\cf1 SET\cf2  \cf1 QUOTED_IDENTIFIER\cf2  \cf1 ON\cf2\par
+\cf1 GO\cf2\par
+\cf1 CREATE\cf2  \cf1 TABLE\cf2  [dbo]\cf4 .\cf2 [Files]\cf4 (\cf2\par
+\tab [ID] [nchar]\cf4 (\cf2 32\cf4 )\cf2  \cf4 NOT\cf2  \cf4 NULL,\cf2\par
+\tab [Desctiption] [nvarchar]\cf4 (\cf2 80\cf4 )\cf2  \cf4 NULL,\cf2\par
+\tab [CreatorID] [nchar]\cf4 (\cf2 9\cf4 )\cf2  \cf4 NOT\cf2  \cf4 NULL,\cf2\par
+\tab [Date_Creation] [date] \cf4 NOT\cf2  \cf4 NULL,\cf2\par
+\tab [UpdateID] [nchar]\cf4 (\cf2 9\cf4 )\cf2  \cf4 NULL,\cf2\par
+\tab [Date_Update] [date] \cf4 NULL,\cf2\par
+\tab [ExtensionID] [int] \cf4 NOT\cf2  \cf4 NULL,\cf2\par
+\tab [Version] [int] \cf4 NULL,\cf2\par
+\tab [CategoryID] [int] \cf4 NULL,\cf2\par
+ \cf1 CONSTRAINT\cf2  [PK_Files] \cf1 PRIMARY\cf2  \cf1 KEY\cf2  \cf1 CLUSTERED\cf2  \par
+\cf4 (\cf2\par
+\tab [ID] \cf1 ASC\cf2\par
+\cf4 )\cf1 WITH \cf4 (\cf1 PAD_INDEX\cf2  \cf4 =\cf2  \cf1 OFF\cf4 ,\cf2  \cf1 STATISTICS_NORECOMPUTE\cf2  \cf4 =\cf2  \cf1 OFF\cf4 ,\cf2  \cf1 IGNORE_DUP_KEY\cf2  \cf4 =\cf2  \cf1 OFF\cf4 ,\cf2  \cf1 ALLOW_ROW_LOCKS\cf2  \cf4 =\cf2  \cf1 ON\cf4 ,\cf2  \cf1 ALLOW_PAGE_LOCKS\cf2  \cf4 =\cf2  \cf1 ON\cf4 )\cf2  \cf1 ON\cf2  [PRIMARY]\par
+\cf4 )\cf2  \cf1 ON\cf2  [PRIMARY]\par
+\cf1 GO\cf2\par
+\cf3 /****** Object:  Table [dbo].[History]    Script Date: 08/10/2018 13:55:30 ******/\cf2\par
+\cf1 SET\cf2  \cf1 ANSI_NULLS\cf2  \cf1 ON\cf2\par
+\cf1 GO\cf2\par
+\cf1 SET\cf2  \cf1 QUOTED_IDENTIFIER\cf2  \cf1 ON\cf2\par
+\cf1 GO\cf2\par
+\cf1 CREATE\cf2  \cf1 TABLE\cf2  [dbo]\cf4 .\cf2 [History]\cf4 (\cf2\par
+\tab [ID] [nchar]\cf4 (\cf2 32\cf4 )\cf2  \cf4 NOT\cf2  \cf4 NULL,\cf2\par
+\tab [VirsionNum] [int] \cf4 NOT\cf2  \cf4 NULL,\cf2\par
+\tab [UpdateID] [nchar]\cf4 (\cf2 9\cf4 )\cf2  \cf4 NOT\cf2  \cf4 NULL,\cf2\par
+\tab [Date_Update] [date] \cf4 NOT\cf2  \cf4 NULL,\cf2\par
+\tab [Remarks] [nvarchar]\cf4 (\cf2 100\cf4 )\cf2  \cf4 NULL,\cf2\par
+ \cf1 CONSTRAINT\cf2  [PK_History] \cf1 PRIMARY\cf2  \cf1 KEY\cf2  \cf1 CLUSTERED\cf2  \par
+\cf4 (\cf2\par
+\tab [ID] \cf1 ASC\cf4 ,\cf2\par
+\tab [VirsionNum] \cf1 ASC\cf2\par
+\cf4 )\cf1 WITH \cf4 (\cf1 PAD_INDEX\cf2  \cf4 =\cf2  \cf1 OFF\cf4 ,\cf2  \cf1 STATISTICS_NORECOMPUTE\cf2  \cf4 =\cf2  \cf1 OFF\cf4 ,\cf2  \cf1 IGNORE_DUP_KEY\cf2  \cf4 =\cf2  \cf1 OFF\cf4 ,\cf2  \cf1 ALLOW_ROW_LOCKS\cf2  \cf4 =\cf2  \cf1 ON\cf4 ,\cf2  \cf1 ALLOW_PAGE_LOCKS\cf2  \cf4 =\cf2  \cf1 ON\cf4 )\cf2  \cf1 ON\cf2  [PRIMARY]\par
+\cf4 )\cf2  \cf1 ON\cf2  [PRIMARY]\par
+\cf1 GO\cf2\par
+\cf3 /****** Object:  Table [dbo].[Permissions]    Script Date: 08/10/2018 13:55:30 ******/\cf2\par
+\cf1 SET\cf2  \cf1 ANSI_NULLS\cf2  \cf1 ON\cf2\par
+\cf1 GO\cf2\par
+\cf1 SET\cf2  \cf1 QUOTED_IDENTIFIER\cf2  \cf1 ON\cf2\par
+\cf1 GO\cf2\par
+\cf1 CREATE\cf2  \cf1 TABLE\cf2  [dbo]\cf4 .\cf2 [Permissions]\cf4 (\cf2\par
+\tab [ID] [int] \cf1 IDENTITY\cf4 (\cf2 1\cf4 ,\cf2 1\cf4 )\cf2  \cf4 NOT\cf2  \cf4 NULL,\cf2\par
+\tab [Descripton] [nvarchar]\cf4 (\cf2 50\cf4 )\cf2  \cf4 NOT\cf2  \cf4 NULL,\cf2\par
+ \cf1 CONSTRAINT\cf2  [PK_PERMISSION] \cf1 PRIMARY\cf2  \cf1 KEY\cf2  \cf1 CLUSTERED\cf2  \par
+\cf4 (\cf2\par
+\tab [ID] \cf1 ASC\cf2\par
+\cf4 )\cf1 WITH \cf4 (\cf1 PAD_INDEX\cf2  \cf4 =\cf2  \cf1 OFF\cf4 ,\cf2  \cf1 STATISTICS_NORECOMPUTE\cf2  \cf4 =\cf2  \cf1 OFF\cf4 ,\cf2  \cf1 IGNORE_DUP_KEY\cf2  \cf4 =\cf2  \cf1 OFF\cf4 ,\cf2  \cf1 ALLOW_ROW_LOCKS\cf2  \cf4 =\cf2  \cf1 ON\cf4 ,\cf2  \cf1 ALLOW_PAGE_LOCKS\cf2  \cf4 =\cf2  \cf1 ON\cf4 )\cf2  \cf1 ON\cf2  [PRIMARY]\par
+\cf4 )\cf2  \cf1 ON\cf2  [PRIMARY]\par
+\cf1 GO\cf2\par
+\cf3 /****** Object:  Table [dbo].[Roles]    Script Date: 08/10/2018 13:55:30 ******/\cf2\par
+\cf1 SET\cf2  \cf1 ANSI_NULLS\cf2  \cf1 ON\cf2\par
+\cf1 GO\cf2\par
+\cf1 SET\cf2  \cf1 QUOTED_IDENTIFIER\cf2  \cf1 ON\cf2\par
+\cf1 GO\cf2\par
+\cf1 CREATE\cf2  \cf1 TABLE\cf2  [dbo]\cf4 .\cf2 [Roles]\cf4 (\cf2\par
+\tab [ID] [int] \cf1 IDENTITY\cf4 (\cf2 1\cf4 ,\cf2 1\cf4 )\cf2  \cf4 NOT\cf2  \cf4 NULL,\cf2\par
+\tab [Description] [nvarchar]\cf4 (\cf2 50\cf4 )\cf2  \cf4 NOT\cf2  \cf4 NULL,\cf2\par
+ \cf1 CONSTRAINT\cf2  [PK_Roles_tbl] \cf1 PRIMARY\cf2  \cf1 KEY\cf2  \cf1 CLUSTERED\cf2  \par
+\cf4 (\cf2\par
+\tab [ID] \cf1 ASC\cf2\par
+\cf4 )\cf1 WITH \cf4 (\cf1 PAD_INDEX\cf2  \cf4 =\cf2  \cf1 OFF\cf4 ,\cf2  \cf1 STATISTICS_NORECOMPUTE\cf2  \cf4 =\cf2  \cf1 OFF\cf4 ,\cf2  \cf1 IGNORE_DUP_KEY\cf2  \cf4 =\cf2  \cf1 OFF\cf4 ,\cf2  \cf1 ALLOW_ROW_LOCKS\cf2  \cf4 =\cf2  \cf1 ON\cf4 ,\cf2  \cf1 ALLOW_PAGE_LOCKS\cf2  \cf4 =\cf2  \cf1 ON\cf4 )\cf2  \cf1 ON\cf2  [PRIMARY]\par
+\cf4 )\cf2  \cf1 ON\cf2  [PRIMARY]\par
+\cf1 GO\cf2\par
+\cf3 /****** Object:  Table [dbo].[Sharings]    Script Date: 08/10/2018 13:55:30 ******/\cf2\par
+\cf1 SET\cf2  \cf1 ANSI_NULLS\cf2  \cf1 ON\cf2\par
+\cf1 GO\cf2\par
+\cf1 SET\cf2  \cf1 QUOTED_IDENTIFIER\cf2  \cf1 ON\cf2\par
+\cf1 GO\cf2\par
+\cf1 CREATE\cf2  \cf1 TABLE\cf2  [dbo]\cf4 .\cf2 [Sharings]\cf4 (\cf2\par
+\tab [FileID] [nchar]\cf4 (\cf2 32\cf4 )\cf2  \cf4 NOT\cf2  \cf4 NULL,\cf2\par
+\tab [TZ] [nchar]\cf4 (\cf2 9\cf4 )\cf2  \cf4 NOT\cf2  \cf4 NULL,\cf2\par
+\tab [ShareLevelID] [int] \cf4 NOT\cf2  \cf4 NULL,\cf2\par
+ \cf1 CONSTRAINT\cf2  [PK_SHARINGS] \cf1 PRIMARY\cf2  \cf1 KEY\cf2  \cf1 CLUSTERED\cf2  \par
+\cf4 (\cf2\par
+\tab [FileID] \cf1 ASC\cf4 ,\cf2\par
+\tab [TZ] \cf1 ASC\cf4 ,\cf2\par
+\tab [ShareLevelID] \cf1 ASC\cf2\par
+\cf4 )\cf1 WITH \cf4 (\cf1 PAD_INDEX\cf2  \cf4 =\cf2  \cf1 OFF\cf4 ,\cf2  \cf1 STATISTICS_NORECOMPUTE\cf2  \cf4 =\cf2  \cf1 OFF\cf4 ,\cf2  \cf1 IGNORE_DUP_KEY\cf2  \cf4 =\cf2  \cf1 OFF\cf4 ,\cf2  \cf1 ALLOW_ROW_LOCKS\cf2  \cf4 =\cf2  \cf1 ON\cf4 ,\cf2  \cf1 ALLOW_PAGE_LOCKS\cf2  \cf4 =\cf2  \cf1 ON\cf4 )\cf2  \cf1 ON\cf2  [PRIMARY]\par
+\cf4 )\cf2  \cf1 ON\cf2  [PRIMARY]\par
+\cf1 GO\cf2\par
+\cf3 /****** Object:  Table [dbo].[Templates]    Script Date: 08/10/2018 13:55:31 ******/\cf2\par
+\cf1 SET\cf2  \cf1 ANSI_NULLS\cf2  \cf1 ON\cf2\par
+\cf1 GO\cf2\par
+\cf1 SET\cf2  \cf1 QUOTED_IDENTIFIER\cf2  \cf1 ON\cf2\par
+\cf1 GO\cf2\par
+\cf1 CREATE\cf2  \cf1 TABLE\cf2  [dbo]\cf4 .\cf2 [Templates]\cf4 (\cf2\par
+\tab [ID] [int] \cf4 NOT\cf2  \cf4 NULL,\cf2\par
+\tab [Name] [nvarchar]\cf4 (\cf2 50\cf4 )\cf2  \cf4 NOT\cf2  \cf4 NULL,\cf2\par
+ \cf1 CONSTRAINT\cf2  [PK_Templates] \cf1 PRIMARY\cf2  \cf1 KEY\cf2  \cf1 CLUSTERED\cf2  \par
+\cf4 (\cf2\par
+\tab [ID] \cf1 ASC\cf2\par
+\cf4 )\cf1 WITH \cf4 (\cf1 PAD_INDEX\cf2  \cf4 =\cf2  \cf1 OFF\cf4 ,\cf2  \cf1 STATISTICS_NORECOMPUTE\cf2  \cf4 =\cf2  \cf1 OFF\cf4 ,\cf2  \cf1 IGNORE_DUP_KEY\cf2  \cf4 =\cf2  \cf1 OFF\cf4 ,\cf2  \cf1 ALLOW_ROW_LOCKS\cf2  \cf4 =\cf2  \cf1 ON\cf4 ,\cf2  \cf1 ALLOW_PAGE_LOCKS\cf2  \cf4 =\cf2  \cf1 ON\cf4 )\cf2  \cf1 ON\cf2  [PRIMARY]\par
+\cf4 )\cf2  \cf1 ON\cf2  [PRIMARY]\par
+\cf1 GO\cf2\par
+\cf3 /****** Object:  Table [dbo].[Users]    Script Date: 08/10/2018 13:55:31 ******/\cf2\par
+\cf1 SET\cf2  \cf1 ANSI_NULLS\cf2  \cf1 ON\cf2\par
+\cf1 GO\cf2\par
+\cf1 SET\cf2  \cf1 QUOTED_IDENTIFIER\cf2  \cf1 ON\cf2\par
+\cf1 GO\cf2\par
+\cf1 CREATE\cf2  \cf1 TABLE\cf2  [dbo]\cf4 .\cf2 [Users]\cf4 (\cf2\par
+\tab [TZ] [nchar]\cf4 (\cf2 9\cf4 )\cf2  \cf4 NOT\cf2  \cf4 NULL,\cf2\par
+\tab [Password] [nchar]\cf4 (\cf2 8\cf4 )\cf2  \cf4 NOT\cf2  \cf4 NULL,\cf2\par
+\tab [Email] [nvarchar]\cf4 (\cf2 50\cf4 )\cf2  \cf4 NOT\cf2  \cf4 NULL,\cf2\par
+\tab [RoleID] [int] \cf4 NULL,\cf2\par
+\tab [LastEntry] [datetime] \cf4 NULL,\cf2\par
+\tab [Name] [nchar]\cf4 (\cf2 20\cf4 )\cf2  \cf4 NULL,\cf2\par
+ \cf1 CONSTRAINT\cf2  [PK_USERS] \cf1 PRIMARY\cf2  \cf1 KEY\cf2  \cf1 CLUSTERED\cf2  \par
+\cf4 (\cf2\par
+\tab [TZ] \cf1 ASC\cf2\par
+\cf4 )\cf1 WITH \cf4 (\cf1 PAD_INDEX\cf2  \cf4 =\cf2  \cf1 OFF\cf4 ,\cf2  \cf1 STATISTICS_NORECOMPUTE\cf2  \cf4 =\cf2  \cf1 OFF\cf4 ,\cf2  \cf1 IGNORE_DUP_KEY\cf2  \cf4 =\cf2  \cf1 OFF\cf4 ,\cf2  \cf1 ALLOW_ROW_LOCKS\cf2  \cf4 =\cf2  \cf1 ON\cf4 ,\cf2  \cf1 ALLOW_PAGE_LOCKS\cf2  \cf4 =\cf2  \cf1 ON\cf4 )\cf2  \cf1 ON\cf2  [PRIMARY]\par
+\cf4 )\cf2  \cf1 ON\cf2  [PRIMARY]\par
+\cf1 GO\cf2\par
+\cf1 ALTER\cf2  \cf1 TABLE\cf2  [dbo]\cf4 .\cf2 [Claims]  \cf1 WITH\cf2  \cf1 CHECK\cf2  \cf1 ADD\cf2   \cf1 CONSTRAINT\cf2  [FK_Claims_tbl_Permission_tbl] \cf1 FOREIGN\cf2  \cf1 KEY\cf4 (\cf2 [Permission]\cf4 )\cf2\par
+\cf1 REFERENCES\cf2  [dbo]\cf4 .\cf2 [Permissions]\cf1  \cf4 (\cf2 [ID]\cf4 )\cf2\par
+\cf1 GO\cf2\par
+\cf1 ALTER\cf2  \cf1 TABLE\cf2  [dbo]\cf4 .\cf2 [Claims] \cf1 CHECK\cf2  \cf1 CONSTRAINT\cf2  [FK_Claims_tbl_Permission_tbl]\par
+\cf1 GO\cf2\par
+\cf1 ALTER\cf2  \cf1 TABLE\cf2  [dbo]\cf4 .\cf2 [Claims]  \cf1 WITH\cf2  \cf1 CHECK\cf2  \cf1 ADD\cf2   \cf1 CONSTRAINT\cf2  [FK_Claims_tbl_Roles_tbl] \cf1 FOREIGN\cf2  \cf1 KEY\cf4 (\cf2 [RoleID]\cf4 )\cf2\par
+\cf1 REFERENCES\cf2  [dbo]\cf4 .\cf2 [Roles]\cf1  \cf4 (\cf2 [ID]\cf4 )\cf2\par
+\cf1 GO\cf2\par
+\cf1 ALTER\cf2  \cf1 TABLE\cf2  [dbo]\cf4 .\cf2 [Claims] \cf1 CHECK\cf2  \cf1 CONSTRAINT\cf2  [FK_Claims_tbl_Roles_tbl]\par
+\cf1 GO\cf2\par
+\cf1 ALTER\cf2  \cf1 TABLE\cf2  [dbo]\cf4 .\cf2 [Files]  \cf1 WITH\cf2  \cf1 CHECK\cf2  \cf1 ADD\cf2   \cf1 CONSTRAINT\cf2  [FK_Files_Categories] \cf1 FOREIGN\cf2  \cf1 KEY\cf4 (\cf2 [CategoryID]\cf4 )\cf2\par
+\cf1 REFERENCES\cf2  [dbo]\cf4 .\cf2 [Categories]\cf1  \cf4 (\cf2 [ID]\cf4 )\cf2\par
+\cf1 GO\cf2\par
+\cf1 ALTER\cf2  \cf1 TABLE\cf2  [dbo]\cf4 .\cf2 [Files] \cf1 CHECK\cf2  \cf1 CONSTRAINT\cf2  [FK_Files_Categories]\par
+\cf1 GO\cf2\par
+\cf1 ALTER\cf2  \cf1 TABLE\cf2  [dbo]\cf4 .\cf2 [Files]  \cf1 WITH\cf2  \cf1 CHECK\cf2  \cf1 ADD\cf2   \cf1 CONSTRAINT\cf2  [FK_Files_Extensions] \cf1 FOREIGN\cf2  \cf1 KEY\cf4 (\cf2 [ExtensionID]\cf4 )\cf2\par
+\cf1 REFERENCES\cf2  [dbo]\cf4 .\cf2 [Extensions]\cf1  \cf4 (\cf2 [ID]\cf4 )\cf2\par
+\cf1 GO\cf2\par
+\cf1 ALTER\cf2  \cf1 TABLE\cf2  [dbo]\cf4 .\cf2 [Files] \cf1 CHECK\cf2  \cf1 CONSTRAINT\cf2  [FK_Files_Extensions]\par
+\cf1 GO\cf2\par
+\cf1 ALTER\cf2  \cf1 TABLE\cf2  [dbo]\cf4 .\cf2 [Files]  \cf1 WITH\cf2  \cf1 CHECK\cf2  \cf1 ADD\cf2   \cf1 CONSTRAINT\cf2  [FK_Files_Users] \cf1 FOREIGN\cf2  \cf1 KEY\cf4 (\cf2 [CreatorID]\cf4 )\cf2\par
+\cf1 REFERENCES\cf2  [dbo]\cf4 .\cf2 [Users]\cf1  \cf4 (\cf2 [TZ]\cf4 )\cf2\par
+\cf1 GO\cf2\par
+\cf1 ALTER\cf2  \cf1 TABLE\cf2  [dbo]\cf4 .\cf2 [Files] \cf1 CHECK\cf2  \cf1 CONSTRAINT\cf2  [FK_Files_Users]\par
+\cf1 GO\cf2\par
+\cf1 ALTER\cf2  \cf1 TABLE\cf2  [dbo]\cf4 .\cf2 [History]  \cf1 WITH\cf2  \cf1 CHECK\cf2  \cf1 ADD\cf2   \cf1 CONSTRAINT\cf2  [FK_History_Files] \cf1 FOREIGN\cf2  \cf1 KEY\cf4 (\cf2 [ID]\cf4 )\cf2\par
+\cf1 REFERENCES\cf2  [dbo]\cf4 .\cf2 [Files]\cf1  \cf4 (\cf2 [ID]\cf4 )\cf2\par
+\cf1 GO\cf2\par
+\cf1 ALTER\cf2  \cf1 TABLE\cf2  [dbo]\cf4 .\cf2 [History] \cf1 CHECK\cf2  \cf1 CONSTRAINT\cf2  [FK_History_Files]\par
+\cf1 GO\cf2\par
+\cf1 ALTER\cf2  \cf1 TABLE\cf2  [dbo]\cf4 .\cf2 [History]  \cf1 WITH\cf2  \cf1 CHECK\cf2  \cf1 ADD\cf2   \cf1 CONSTRAINT\cf2  [FK_History_Users] \cf1 FOREIGN\cf2  \cf1 KEY\cf4 (\cf2 [UpdateID]\cf4 )\cf2\par
+\cf1 REFERENCES\cf2  [dbo]\cf4 .\cf2 [Users]\cf1  \cf4 (\cf2 [TZ]\cf4 )\cf2\par
+\cf1 GO\cf2\par
+\cf1 ALTER\cf2  \cf1 TABLE\cf2  [dbo]\cf4 .\cf2 [History] \cf1 CHECK\cf2  \cf1 CONSTRAINT\cf2  [FK_History_Users]\par
+\cf1 GO\cf2\par
+\cf1 ALTER\cf2  \cf1 TABLE\cf2  [dbo]\cf4 .\cf2 [Sharings]  \cf1 WITH\cf2  \cf1 CHECK\cf2  \cf1 ADD\cf2   \cf1 CONSTRAINT\cf2  [FK_Sharings_Files] \cf1 FOREIGN\cf2  \cf1 KEY\cf4 (\cf2 [FileID]\cf4 )\cf2\par
+\cf1 REFERENCES\cf2  [dbo]\cf4 .\cf2 [Files]\cf1  \cf4 (\cf2 [ID]\cf4 )\cf2\par
+\cf1 GO\cf2\par
+\cf1 ALTER\cf2  \cf1 TABLE\cf2  [dbo]\cf4 .\cf2 [Sharings] \cf1 CHECK\cf2  \cf1 CONSTRAINT\cf2  [FK_Sharings_Files]\par
+\cf1 GO\cf2\par
+\cf1 ALTER\cf2  \cf1 TABLE\cf2  [dbo]\cf4 .\cf2 [Sharings]  \cf1 WITH\cf2  \cf1 CHECK\cf2  \cf1 ADD\cf2   \cf1 CONSTRAINT\cf2  [FK_Sharings_Permissions] \cf1 FOREIGN\cf2  \cf1 KEY\cf4 (\cf2 [ShareLevelID]\cf4 )\cf2\par
+\cf1 REFERENCES\cf2  [dbo]\cf4 .\cf2 [Permissions]\cf1  \cf4 (\cf2 [ID]\cf4 )\cf2\par
+\cf1 GO\cf2\par
+\cf1 ALTER\cf2  \cf1 TABLE\cf2  [dbo]\cf4 .\cf2 [Sharings] \cf1 CHECK\cf2  \cf1 CONSTRAINT\cf2  [FK_Sharings_Permissions]\par
+\cf1 GO\cf2\par
+\cf1 ALTER\cf2  \cf1 TABLE\cf2  [dbo]\cf4 .\cf2 [Sharings]  \cf1 WITH\cf2  \cf1 CHECK\cf2  \cf1 ADD\cf2   \cf1 CONSTRAINT\cf2  [FK_Sharings_Users] \cf1 FOREIGN\cf2  \cf1 KEY\cf4 (\cf2 [TZ]\cf4 )\cf2\par
+\cf1 REFERENCES\cf2  [dbo]\cf4 .\cf2 [Users]\cf1  \cf4 (\cf2 [TZ]\cf4 )\cf2\par
+\cf1 GO\cf2\par
+\cf1 ALTER\cf2  \cf1 TABLE\cf2  [dbo]\cf4 .\cf2 [Sharings] \cf1 CHECK\cf2  \cf1 CONSTRAINT\cf2  [FK_Sharings_Users]\par
+\cf1 GO\cf2\par
+\cf1 ALTER\cf2  \cf1 TABLE\cf2  [dbo]\cf4 .\cf2 [Users]  \cf1 WITH\cf2  \cf1 CHECK\cf2  \cf1 ADD\cf2   \cf1 CONSTRAINT\cf2  [FK_Users_Roles] \cf1 FOREIGN\cf2  \cf1 KEY\cf4 (\cf2 [RoleID]\cf4 )\cf2\par
+\cf1 REFERENCES\cf2  [dbo]\cf4 .\cf2 [Roles]\cf1  \cf4 (\cf2 [ID]\cf4 )\cf2\par
+\cf1 GO\cf2\par
+\cf1 ALTER\cf2  \cf1 TABLE\cf2  [dbo]\cf4 .\cf2 [Users] \cf1 CHECK\cf2  \cf1 CONSTRAINT\cf2  [FK_Users_Roles]\par
+\cf1 GO\cf2\par
+\cf0\f1\fs20\par
+}
+ 

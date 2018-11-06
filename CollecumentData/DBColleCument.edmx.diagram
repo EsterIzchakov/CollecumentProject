@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ca710872d1da47fdb9ab24b899006651" Name="Diagram1">
+        <EntityTypeShape EntityType="DBCollecumentModel.Category" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBCollecumentModel.Extension" Width="1.5" PointX="5.25" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBCollecumentModel.File" Width="1.5" PointX="7.5" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBCollecumentModel.History" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBCollecumentModel.Permission" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBCollecumentModel.Role" Width="1.5" PointX="3" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBCollecumentModel.Sharing" Width="1.5" PointX="9.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBCollecumentModel.sysdiagram" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBCollecumentModel.Template" Width="1.5" PointX="0.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBCollecumentModel.User" Width="1.5" PointX="5.25" PointY="3.5" IsExpanded="true" />
+        <AssociationConnector Association="DBCollecumentModel.FK_Files_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="DBCollecumentModel.FK_Files_Extensions" ManuallyRouted="false" />
+        <AssociationConnector Association="DBCollecumentModel.FK_Files_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="DBCollecumentModel.FK_History_Files" ManuallyRouted="false" />
+        <AssociationConnector Association="DBCollecumentModel.FK_Sharings_Files" ManuallyRouted="false" />
+        <AssociationConnector Association="DBCollecumentModel.FK_History_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="DBCollecumentModel.FK_Sharings_Permissions" ManuallyRouted="false" />
+        <AssociationConnector Association="DBCollecumentModel.FK_Users_Roles" ManuallyRouted="false" />
+        <AssociationConnector Association="DBCollecumentModel.FK_Sharings_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="DBCollecumentModel.Claims" ManuallyRouted="false" />
+        <AssociationConnector Association="DBCollecumentModel.FK_Templates_Extensions" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,52 @@
+﻿
+@{
+    ViewBag.Title = "Search";
+}
+<link href="~/Content/Search.css" rel="stylesheet" />
+@*<h2>Search</h2>*@
+<body>
+    
+    <div class="headerSearch">
+        <select>
+            <option>יציאה</option>
+            <option>כניסתך האחרונה לאתר</option>
+        </select>
+        <form class="form-inline">
+            <div class="col-sm-7 form-group">
+                <label class="control-label col-sm-3" for="pwd">שם </label>
+                <input type="text" class="form-control" id="name_file" placeholder="שם קובץ">
+            </div>
+            <div class="col-sm-7 form-group">
+                <label class="control-label col-sm-3">סוג </label>
+                <input type="text" class="form-control" id="file_type" placeholder="סוג הקובץ">
+            </div>
+           
+            <div class="col-sm-7 form-group">
+                <label class="control-label col-sm-3">שם יוצר </label>
+                    <input type="text" class="form-control" id="file_creator" placeholder="שם יוצר הקובץ">
+                </div>
+            <div class="col-sm-7 form-group">
+                <label class="control-label col-sm-3">קטגוריה</label>
+                <select class="col-sm-7" name="area">
+                    @foreach (var item in ViewBag.categoy)
+                    {
+                        <option class="col-sm-7">@item.name</option>
+                    }
+                </select>
+            </div>
+            <div class="col-sm-7 form-group">
+                <label class="control-label col-sm-3">גירסה</label>
+                <input type="number" class="form-control" id="num_version"placeholder="גירסת הקובץ">
+            </div>
+            <div class="col-sm-7 form-group">
+                <label class="control-label col-sm-3">תאריך יצירה</label>
+                    <input type="date" class="form-control" id="date_creator" >
+                </div>
+
+            <div class="col-sm-7 form-group">
+                <label class="control-label col-sm-3">תאריך עדכון</label>
+                <input type="date" class="form-control" id="date_update">
+            </div>
+</form>
+    </div>
+</body>
